@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 get_and_run() {
   local selection=$(
     tmux list-keys |
